@@ -84,13 +84,13 @@ public class Jugador {
 	}
 	
 	// Metodos de utilidad para obtener o modificar estado de sesion
-	public boolean statLog() {
+	public static boolean statLog() {
 		return login;
 	}
-	public String username() {
+	public static String username() {
 		return username;
 	}
-	public void logOut() {
+	public static void logOut() {
 		login = false;
 		username = null;
 	}
