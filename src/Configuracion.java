@@ -9,4 +9,5 @@ public class Configuracion {
 	public static void setConfig(int size, int sleep, int lvl){
 		File archivo = new File("configuracion"+Jugador.username()+".txt");
 	}
+	
 }

@@ -16,14 +16,6 @@ public class Jugador {
 	// Variable del juego con nombre de usuario (id)
 	private static String username = null;
 	
-	/*Jugador() throws IOException{
-		// Creamos el fichero de usuarios si no existe
-		if(!archivo.exists()) {
-			BufferedWriter bw = new BufferedWriter(new FileWriter(archivo,true));
-			bw.close();
-		}
-	}*/
-	
 	// Metodo para registrar un usuario
 	public static void regUser(String usrname, String passwd, String secPasswd) throws IOException {
 		if(existeUsuario(usrname)) { // Comprobamos que el usuario no exista
